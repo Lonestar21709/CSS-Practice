@@ -1,0 +1,23 @@
+img{
+	width:30%;
+	float: left;
+	margin:1.66%;
+	/*figrued out by number of pictures = 10, divided by the number of pics per row wanted muiltipled by number of margins = 2 margins x 3 pictures ==> 10/6
+	ACTUALLY each picture takes up 30 percent, so 10 percent is left for white space, which means 10 percent divided by 6(number of margins) = 1.66, each margin to the side of each photo is 1.66
+	*/
+
+}
+
+
+
+
+p {
+	font-family: 'Raleway', sans-serif;
+	margin-left: 1.66%;
+	font-size: 23px;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: 2px solid #f1f1f1;
+	width: 30%;
+	padding-bottom: 20px;
+}
