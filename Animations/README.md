@@ -15,13 +15,13 @@ Explanation of how all this cool stuff works, so I don't forget.
 ##### **Signature** 
 * Using offset in keyframes from 0 to full length, and animate in reverse to make it appear as if its being spawn
 
-##### *Texture** 
+##### **Texture** 
 * setting the mask as a url essentially acts as background or fill for the text
 
 ##### **Line - Animations**
 * 4 examples of how animation and dash-offset function with different properties
 
-##### **Social Icons Animation -Twitter, FB, Youtube **
+##### **Social Icons Animation -Twitter, FB, Youtube**
 * Transition - animation speed
 * When you hover over the specified class of each icon, some css code executes on the different parts of each icon, creating a bunch of animations, pretty neat :D
 
