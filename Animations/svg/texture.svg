@@ -1,0 +1,19 @@
+text{
+  font-size: 60px;
+  font-weight: bold;
+}
+
+
+<svg>
+  <defs>
+      <mask id = "texture">
+        <image height = "400" width = "600" xlink:href = "https://static8.depositphotos.com/1387950/864/i/950/depositphotos_8648992-stock-photo-black-and-white-scratches-texture.jpg">
+      </mask>
+  </defs>
+    
+  <text x = "100" y = "100" mask = "url(#texture)">Texture</text>
+</svg>
+<!--   
+  http://www.stockvault.net/blog/wp-content/uploads/2013/03/free_texture_friday_682-1024x682.jpg -->
+  
+<!--   https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8j-XuBgJtFdKd9mMVQEdjhdcm4cUlu90BUwP-DUi5zIIqjPW1 -->
