@@ -3,16 +3,16 @@
 
 Explanation of how all this cool stuff works, so I don't forget. 
 
-#####**Monkey Animation** 
+##### **Monkey Animation** 
 *Animation and going through a lot of animation properties
 *Show off how you can create animations using keyframes
 
-#####**Logo**
+##### **Logo**
 * Logo created in Inkscape. Shapes rotate and animate the lines of the shape to appear as they rotate
 * dashoffset - moves line from the current position, dasharray - controls length of the stroke or outline of shape
 * keyFrames specifies animation code, animation begins in "from", and changes in "to"
 
-#####**Signature** 
+##### **Signature** 
 * Using offset in keyframes from 0 to full length, and animate in reverse to make it appear as if its being spawn
 
 #####**Texture** 
