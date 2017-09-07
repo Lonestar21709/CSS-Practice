@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Conde Auto Glass Logo</title>
+
+  <link rel="stylesheet" type="text/css" href="ca.css">
+</head>
+<body>
+<div class="mask pseudo">
+  <a href="http://css3create.com">
+    <img src="CA_logo_V3Scaled.png" alt="CSS3Create logo" />
+  </a>
+</div>
+
+
+<svg height="0">
+  <!-- THE mask -->
+  <mask id="mask-firefox">
+    <image width="750" height="500" url="CA_logo_V3.png" filter="url(#filter)" /> 
+  </mask>
+  
+  <!-- the filter to make the image white -->
+  <filter id="filter">
+    <feFlood flood-color="white" />
+    <feComposite in2="SourceAlpha" operator="in" />
+  </filter>
+</svg>
+</body>
+</html>
